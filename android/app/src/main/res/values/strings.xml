@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SpotifyCopy</string>
+    <string name="title_activity_main">SpotifyCopy</string>
+    <string name="package_name">io.github.phellipelins.sptfycpy</string>
+    <string name="custom_url_scheme">io.github.phellipelins.sptfycpy</string>
+</resources>

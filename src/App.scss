@@ -1,0 +1,25 @@
+ion-tabs {
+
+  ion-tab-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    --background: linear-gradient(180deg, rgba(var(--ion-color-secondary-rgb), 0.75) 0%, rgba(var(--ion-color-secondary-rgb), .99) 80%);;
+    --border: none;
+    height: 70px;
+
+    ion-tab-button {
+      --color: var(--ion-color-medium);
+      --color-focused: var(--ion-color-light);
+      --color-selected:  var(--ion-color-light);
+      --background: none;
+
+      ion-label {
+        font-weight: 700;
+        margin-top: 4px;
+      }
+    }
+  }
+}
